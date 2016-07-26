@@ -1,1 +1,39 @@
-sdsa
+  C is a genral-purpose programming language.It has been closely associated with the UNIX operating system where it was developed,
+since both the system and most of the programs that run on it are written in C.The language,however,is not tied to any one 
+operating system or machine;and although it has been callde a "system programming langugage"because it is useful for writing 
+compolers and operating system,it has been used equally well to write major programs in many differen domains.
+  
+  Many of the important ideas of C stem from the language BCPL,developed by Martin Richards.The influence of BCPL on C proceeded 
+indirectly through the language B,which was written by Ken Thompson in 1970 for the first UNIX system on the DEC PDP-7.
+  
+  BCPL and B are "typeless"language.By contrast,C provides a variety of data types.The fundamental types characters,and integers 
+and floating point numbers of several sizes.In addition,there is a hierarchy of derived data types created with pointers,arrays,
+structures and unions.Expressions are formed from operators and operands;any expression,including an assignment or a function 
+call,can be a statement.Pointers provide for machine-independent address arithmetic.
+
+  C provides the fundemmental control-flow constructions required for well-stryctured programs:statement grouping,decision 
+making(if-else),selecting one of a set of possible values(switch),looping with the termination test the top(while, for)or at the 
+bottom (do),and early loop exit(break).
+
+  Functions may return values of basic types,structures,unios,or pointers.Any function may be called recursively.Local variables 
+are typically"automatic",or created anew with each invocarion.Function definitions may not be nested but variables may be 
+declared in a block-structured fashion.The functions of a C program may exist in separate source files that are compiled 
+separately.Vaiables may be internal to a function,extenal but known only within a single source file,or cisible to the entire 
+program.
+
+  A preprocessing step performs macro substitution on program text,inclusion of other source files,and conditional compilation.
+
+  C is a relatively "low-level"language.This characteization is not pejorative;it simply means that C deals with the same sort of 
+objects that most computers do,namely characters,numbers,and addtesses.These may be combined and moved about with the arithmetisc 
+and logical operations implemented by real manchines.
+
+  C provides no operation to deal directly with composite objects such as chareacter strings,sets.lists or arrays.There are no 
+operations that manipulate an entire array or string,although structures may be copied as a unit.The language does not define any 
+storage allocation facility othen than static definition and the stack discipline provided by the local variables of functions;
+there are no READ or WRITE starements,and no built-in file access methods.All of these higher-level mechanisms must be provided 
+by explictily called functions.Most C implementations have included a reasonbly standard collection of such functions.
+
+  Similarly,C offers only straighforward,single-thread control flow:tests,loops,grouping,and subprograms,but not multiprogramming,
+parallel operations,synchronization,or coroutines.
+
+
