@@ -36,4 +36,50 @@ by explictily called functions.Most C implementations have included a reasonbly 
   Similarly,C offers only straighforward,single-thread control flow:tests,loops,grouping,and subprograms,but not multiprogramming,
 parallel operations,synchronization,or coroutines.
 
+  Although the absence of some of these features may seem like a grave deficiency.("You mean I have to call a function to compare 
+two character strings?"),it keeping the language down to modest size has real benefits.Since C is relatively small,it can be 
+described in small space,and learned quickly.A programmer can reasonably expect to know and understand and indeed regularly use 
+the entire language.
+
+  For many years,the definition of C was the reference manual in the first edition of The C programming language.In 1983,the 
+American National Standards Institute(ANSI)established,the ANSI standard,or"ANSI C",was completed in late 1988.Most of the 
+features of the standard are already suppored by modern compilers.
+
+  The standard is based on the orginal reference manual.The language is relatively little changed;one of the goals of the 
+standard was to make sure that most existing programs would remain valid,or,failing that,that compilers could produce warnings of 
+new bahavior.
+
+  For most programmers,the most important changs is the new syntax for declaring and defining functions.A function declatation 
+can now include a desctiption of the atguments of the function;the definition syntax changes to match.This extra information 
+makes it much easier for compilers to detect errors by mismatched arguuments;in our experience,it is a very useful adddition to 
+the language.
+
+  There are other small-scale language changs.Structure assignment and enumeration,which had been widely available,are now 
+officially part of the language.Floating-point computations may now be done in single precision.The properties of arithmetic,
+eapecialy for unsigned types,are clatified.The preprocessor is more elaborate.Most of these changs will have only minor effects 
+on most programmmers.
+
+  A second siginficant contribution of the standard is the definition of a library to accompany C.It spcifies functions for 
+accessing the operating system(For instance,wo read and write files),formatted input and output,memory allocation,string 
+manipulation,and the like.A collection of standard heaers,provides unifom access to declarations of functions if data types.
+Programs that use this library to interact with a host system are assured of compatible behavior.Most of the library is closely 
+modeled on the"standard I/O library"of the UNIX system.This library was described in the first deition,and has been widely used 
+on other systems as well.Again,most programmers will noe see much change.
+
+  Because the data types and control structures provided by C are suppored directly by most computers,the run-time library 
+required to implement self-contained programs is tiny.The standard library functions are only called explicitly,so they can be 
+avoided if they are not needed.Most can be written in C,and except for the operating system details they conceal,are themselves 
+portable.
+
+  AIthoygh C matches the capabilities of many compuers,it is independent of any particulat machine archiecture.With a little care 
+it is easy to write portable programs,that is,programs that can be run without change on a variety of hardware.The standard makes 
+portability issues explicit,and prescribes a set of constants that charaterize the machine on which the program is run.
+
+  C is not a strongly-typed language,but as it has evolved,its type-checking has been strengthened.The original definition of C 
+frowned on, but permitted,the interchange of pointers and integers;this has long since been eliminated,and the standard now 
+requires the proper declarations and explicit conversions that had already been enforced by goog compilers.The new function 
+declarations are another step in this direction.Compilers will warn of most type errors,and there is no aytomatic conversion of 
+incompatble data types.Nevertheless,C retains the basic philosophy that programmers know what they are doing;in only any requires 
+that thry state their intentions explicitly.
+
 
