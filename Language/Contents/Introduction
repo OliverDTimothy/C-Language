@@ -82,4 +82,37 @@ declarations are another step in this direction.Compilers will warn of most type
 incompatble data types.Nevertheless,C retains the basic philosophy that programmers know what they are doing;in only any requires 
 that thry state their intentions explicitly.
 
+  C,like any other language.has its blemishes.Some of the opeartors have the wrong precedence;some parts of the syntax could be 
+better.Nonetheless,C has proven to ben an extremely effective and expressive language for a wide variery of programming 
+applications.
+
+  The book is organized as follows.Chapter 1 is a tutorial on the cantral part of C.The purpose is to get the reader started as 
+quickly as possible,since we believe strongly that the way to learn a new language is to write programs in it.The tutorial does 
+assume a working knowledge of the basic elements of programming;there is no explanation of computers,of compilation,not of the 
+meaning of an expression like n=n+1.AIthough we have tried where possible to show usefu programming techniques,the book is not 
+intended to be a reference work on data structures and algorithms;when forced to make a choice,we have concentrated on the 
+language.
+
+  Chapters 2 through 6 discuss vaious aspects of C in more detail,and rather more formally,than does Chapter 1,although the 
+emphasis is still on examples of complete programs,rether than isolated fragments.Chapter 2 deals with the basic data types,
+operators and expressions.Chapter 3 therats control flow:if-else,switch,while,for,etc.Chapter 4 covers functions and program 
+structure - external variables,scope rules,multiple source files,and so on - and also touches on the preprocessor.Chapter 5 
+discusses pointers and address arithmetic.Chapter 6 covers structures and unions.
+
+  Chapter 7 describes the standard libraty,which provides a common interface to the operating system.This library is defined by 
+the ANSI standard and is meant to be supported on all machines that support C,so programs that use it for input,output,and other 
+opeating system access can be moved from one system to another without change.
+
+  Chapter 8 describes an interface between C programs and the UNIX opeating system, concentrating on input/output,the file 
+system,and storage allocation.AIthogh some of this chapter is specifrc to UNIX systems,programmers who use other systems should 
+still find useful material here ,including some insight into how one version of the standard library is implemented,and 
+suggestions on portability.
+
+  Appendix A contains a language reference manual.The offcial statment of the syntax and semantics of the C language is the ANSI 
+standard itself.That document,however,is intended foremost for compiler writers.The reference itself.That document,however,is 
+intended foremost for compiler writers.The reference manual here conveys the definition of the language more concisely and with 
+the same legalistic style.Appendix B is a summary of the standard library,again for users rather than implementers.Appendi C is a 
+short summary of changes from the original language.In cases of doubt,however,the standard and one's own compiler temain the 
+final authorities on the language.
+
 
