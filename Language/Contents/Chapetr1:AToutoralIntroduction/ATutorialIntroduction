@@ -1,0 +1,15 @@
+  let us begin with a quick introduction in C.Our aim is to show the elements fo the language in real programs,but without getting
+bogged down in details,rules,and exceptions.At this point,we are not tying to be complete or even precise(save that the examples 
+are meant to be corret).We want to get you as quickly as possible to the point where you can wrirte useful programs,and to do that
+we have to concentrate on the basics:variables and constants,arithmetic,control flow,function,and the rudiments of input and out 
+put.We are interntionally leaving out of this chapter features of C that are important for writing bigger programs.These include 
+pointers,structures,most of C's rich ser of opeators,several aontrol-flow statments,and the standard library.
+
+  This approach and its drawbacks.Most notable is that complete story on any pariocular feature is not found here,and the 
+tutorial,bu being bref,may also be misleading.And because the examples do noe use the full power of C,they are not as concise and 
+elegant as they might be.We have tried to minimize thesr effects,but be warned.Another drawback is that later chapters will 
+neccssarily repeat some of this chapter.We hope that the repetition will help you more than in annoys.
+
+  In any case,experienced programmers should be able to extrapolate from the meterial in this chapter to their own programming 
+needs.Beginners should supplement it by writing small,similar programs of their own.Both groups can use it as a framework on which
+to hang the more detailed descriprions thet begin in Chapter2.
